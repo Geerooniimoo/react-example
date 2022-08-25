@@ -1,0 +1,36 @@
+body {
+    background: repeating-radial-gradient(black, transparent 100px);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 5px 5px black;
+    background: linear-gradient(16deg, teal 60%, black 65%, black 70%, teal 73%, black 74%, teal 74%);
+}
+
+nav h1 {
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    background: linear-gradient(20deg,black 35%,teal 35%,teal 30%,teal 40%,black 40%,black 45%,teal 45%,teal 50%,black 55%,teal 55%);
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 27px 0px 0px 31px;
+    color: white;
+    /* box-shadow: 5px 5px 5px black; */
+}
+
+nav button {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    background: transparent;
+    color: white;
+    border: 2px solid transparent;
+}
+
+nav button:hover {
+    background: black;
+}
