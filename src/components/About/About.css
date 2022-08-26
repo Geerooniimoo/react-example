@@ -1,0 +1,13 @@
+.aboutMe {
+    border: 25px solid black;
+    border-radius: 46px;
+    margin: 10vh 20vh;
+    padding: 10px;
+    background: lightgray;
+}
+
+.aboutMe img {
+    border-radius: 25%;
+    float: left;
+    margin: 10px 20px;
+}

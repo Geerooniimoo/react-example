@@ -1,13 +1,14 @@
+import React, { useState } from 'react';
 import './Nav.css';
 
-const Nav = () =>
+const Nav = props =>
 <nav>
     <h1>Geronimo Perez</h1>
     <div>
-        <button>About me</button>
-        <button>Projects</button>
-        <button>Contacts</button>
-        <button>Resume</button>
+        <button onClick={()=> props.currentPage('about')}>About me</button>
+        <button onClick={()=> props.currentPage('work')}>Projects</button>
+        <button onClick={()=> props.currentPage('contact')}>Contacts</button>
+        <button onClick={()=> props.currentPage('resume')}>Resume</button>
     </div>
 </nav>;
 
