@@ -1,0 +1,48 @@
+
+.contact {
+    margin: 5vh 20vh;
+    background: lightgrey;
+    border: 20px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    height: 60vh;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.contact h4 {
+    margin-bottom: 0;
+}
+
+.contact input {
+    border-radius: 8px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 15vh;
+    border-radius: 8px;
+}
+
+.contact #alert {
+    color: red;
+    text-align: center;
+    height: 12px;
+}
+
+.contact button {
+    background: darkcyan;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:576px) {
+    .contact {
+        width: 100%;
+        margin: 5vh auto;
+    }   
+}

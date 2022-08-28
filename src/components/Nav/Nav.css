@@ -1,6 +1,7 @@
 body {
-    background: repeating-radial-gradient(black, transparent 100px);
+    background: repeating-radial-gradient(teal, transparent 100px);
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -35,4 +36,10 @@ nav button {
 nav button:hover {
     background: black;
     box-shadow: -3px 3px 1px grey;
+}
+
+@media screen and (max-width:576px) {
+    nav {
+        margin: 0;
+    }
 }

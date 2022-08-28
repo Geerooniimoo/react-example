@@ -7,7 +7,7 @@
     background: lightgray;
     border: 20px solid black;
     border-radius: 12px;
-    background: repeating-linear-gradient(45deg, black, white 100px);
+    background: repeating-radial-gradient(orange, white 100px);
 }
 
 .app {
