@@ -4,6 +4,10 @@ body {
 
 nav {
     display: flex;
+    height: 60px;
+    border: 5px solid white;
+    border-left: none;
+    border-right: none;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
